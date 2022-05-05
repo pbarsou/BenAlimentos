@@ -1,0 +1,84 @@
+/* Components */
+
+/* Header */
+
+.header {
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header ul li {
+  padding-left: 10px;
+}
+
+/*.header ul li:first-child {
+  padding-left: 0px;
+}*/
+
+.header ul li a {
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.search input {
+  padding: 10px 20px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: rgba(255, 249, 240, 0.1);
+  box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Main Content */
+
+.main {
+  padding: 30px;
+}
+
+.products {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.products h2 {
+  border-bottom: 2px solid;
+}
+
+/* Footer */
+
+.footer {
+  background: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Utils */
+
+.title-application {
+  font-size: 125px;
+  font-weight: 700;
+  display: flex;
+}
+
+.title-application div {
+  font-size: 52px;
+  color: #FF382CC7;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 94.8%;
+  letter-spacing: 0.2em;
+}
